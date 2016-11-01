@@ -1,0 +1,37 @@
+.main{ margin-top: 0; }
+.main.toload:after{ content: "加载中..."; width: 54px; padding-top: 35px; height: 25px; line-height: 25px; font-size: 12px; color: #acacac; text-align: center; background: url(../images/loading_logo.gif) top center no-repeat; background-size: 35px auto; position: absolute; left: 50%; margin-left: -27px; top: 48px; }
+.main.toload .loading{ display: none; }
+.main li{ border-bottom: 1px solid #f1f1f1; margin: 10px 10px 20px 10px; position: relative; background: #fff;}
+.main li a{ display: block; }
+.main li .img{ max-height: 179px; overflow: hidden; position: relative; text-align: center;}
+.main li .img img{ width: 100%;}
+.main li .notic{ position: absolute; left: 0; top: 0; font-weight: 700; }
+.notic .discount{ float: left; width: 45px; height: 45px; background: url(../images/discount.png) center 0 no-repeat; background-size: contain; color: #fff; font-size: 10px; line-height: 11px; margin-right: 7px; padding-top: 13px; }
+.notic .pricedown{ padding: 6px 5px; float: left; width: 40px; height: 52px; background: url(../images/icon_down.png) center 0 no-repeat; background-size: contain; color: #fff; font-size: 13px; line-height: 15px;}
+.main li .point{position: absolute; bottom: 15px; right: 15px; }
+.main li .point dl{ color: #fe6672; border-radius: 5px; font-weight: 700;text-align: center; font-size: 12px;}
+.main li .point dd{ text-align: center; background: #fff; margin: 0; border-bottom: 1px solid #ad842d; padding: 0 10px; height: 20px; line-height: 19px; font-size: 12px; border-left: 2px solid #fe6672; border-right: 2px solid #fe6672;}
+.main li .point dd:first-child{ background: #fe6672; margin: 0; border-width: 2px 2px 1px 2px; border-style: solid; border-color: #fe6672; padding: 0 10px; height: 20px; line-height: 17px; color: #fff; border-radius: 5px 5px 0 0; }
+.main li .point dd:last-child{ border-bottom: 2px solid #fe6672; border-radius: 0 0 5px 5px; line-height: 18px}
+.main li .desc{ padding: 0 10px; }
+.main li .desc h5{ color: #27272f; padding: 3px 0; line-height: 22px; font-size: 16px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
+.main li .desc p{ line-height: 15px; color: #9d9d9d; font-size: 13px;}
+.main li .operation{ display: inline-block; margin: 12px 10px; font-size: 14px; background: #7ed6f2; border-radius: 18px; height: 36px; line-height: 36px; color: #fff; }
+.operation i{ float: left; margin: -5px 0 0 -15px; width: 46px; height: 46px; display: inline-block; background: url(../images/pin.png) no-repeat; background-size: 46px; }
+.operation span{ color: #fe6672 }
+.operation span b{ font-size: 16px; }
+.operation span em{ font-style: normal; font-size: 11px; font-weight: 400; padding: 0 21px 0 10px; }
+.operation strong{color: #fff; height: 36px; display: inline-block; border-radius: 0 36px 36px 0; padding: 0 18px; float: right; margin-right: -2px;  background: #fe6672}
+
+.loading{ background: #eee; height: 44px; line-height: 24px; text-align: center; font-size: 14px; color: #b1b1b1;}
+.loading .icon-loading{ display: inline-block; width: 15px; height: 15px; background: url(../images/loading.gif) no-repeat; background-size: 15px auto; vertical-align: middle; margin-right: 5px; }
+
+.no-order{ padding-top: 130px; text-align: center; background: url(../images/pin.png) no-repeat center 50px; background-size: 80px auto;}
+.no-order p{ height: 30px; line-height: 30px; font-size: 15px; color: #acacac; margin-top: 10px;}
+.no-order a{ display: block; height: 40px; line-height: 40px; color: #fff; border-radius: 5px; font-size: 15px; width: 135px; background: #fe6672; margin: 10px auto;}
+
+footer a{ float: left; width: 33.333333%; text-align: center; color: #7d7d7d; position: relative;}
+footer a .icon{ display: block; padding-top: 8px; }
+footer a span{ display: block; height: 25px; line-height: 25px; font-size: 10px;  text-align: center;}
+footer a.cur{ color: #fe6672 }
+footer a.remind:after{ content: ""; width: 10px; height: 10px; border-radius: 5px; background: #fe6672; position: absolute; left: 50%; margin-left: 11px; top: 6px; }

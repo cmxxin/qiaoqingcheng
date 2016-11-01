@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no" searchtype="map">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>美道家</title>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Hk7ZUAdtGW6TkZfEuGXH09AuSeNVU5VS"></script>
+	<style type="text/css">
+		html, body, #map{ width: 100%; height: 100%; margin: 0 }
+	</style>
+</head>
+<body>
+	<div class="goback" style="position: absolute; left: 0; top: 0">></div>
+	<div id="map">
+		
+	</div>
+
+<script type="text/javascript">
+	function QueryStringByName(name){
+		var result=window.location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+		if(result == null || result.length < 0){
+			return "";
+		}
+		return result[1];
+	} 
+	function addMarker(point){    
+		var myIcon = new BMap.Icon("static/images/mark.png",   
+		new BMap.Size(30, 50), { 
+			anchor: new BMap.Size(15, 40),        
+		});           
+		var marker = new BMap.Marker(point, {icon: myIcon});      
+		map.addOverlay(marker);      
+	}  
+	var lati 	= QueryStringByName('lat') || 39.987,
+			longi = QueryStringByName('lng') || 116.315,
+			map 	= new BMap.Map("map"),      
+			point = new BMap.Point(longi, lati);    
+
+	map.centerAndZoom(point, 16);       
+	addMarker(point);   
+</script>
+</body>
+</html>

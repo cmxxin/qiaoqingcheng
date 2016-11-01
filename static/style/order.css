@@ -1,0 +1,38 @@
+nav{ width: 100%; height: 40px; background: #fff;}
+nav a{ float: left; width: 33.333333%; height: 40px; line-height: 40px; text-align: center; font-size: 14px; color: #626262; position: relative; }
+nav a.cur{ color: #fe6672 }
+nav a.cur:before{ content: ""; width: 42px; height: 2px; background: #fe6672; position: absolute; bottom: 0;}
+
+.no-order{ padding-top: 130px; text-align: center; background: url(../images/no_order.png) no-repeat center 50px; background-size: 80px auto;}
+.no-order p{ height: 30px; line-height: 30px; font-size: 15px; color: #acacac; margin-top: 10px;}
+.no-order a{ display: block; height: 40px; line-height: 40px; color: #fff; border-radius: 5px; font-size: 15px; width: 135px; background: #fe6672; margin: 10px auto;}
+
+.list{ position: relative;}
+.toload:after{ content: "加载中..."; width: 54px; padding-top: 35px; height: 25px; line-height: 25px; font-size: 12px; color: #acacac; text-align: center; background: url(../images/loading_logo.gif) top center no-repeat; background-size: 35px auto; position: absolute; left: 50%; margin-left: -27px; top: 48px;}
+.item{ background: #fff; margin-top: 10px; padding: 10px; }
+.item h3{line-height: 25px; font-size: 12px; color: #626262;}
+.item h3 span{ float: right; }
+.item dl{ padding-top: 20px; }
+.item dl dt{ float: left; width: 52px; height: 52px; background: url(http://static.emeidaojia.com/static/store_bg.png) no-repeat; background-size: 52px auto; }
+.item dl dt img{ width: 52px; height: 52px; border-radius: 4px;}
+.item dl dd{ margin-left: 68px; min-height: 52px;}
+.item dl dd h4{ font-size: 15px; color: #626262; font-weight: 600; height: 22px; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.item dl dd p{  height: 16px; line-height: 16px; color: #acacac; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.total{ border-top:1px dashed #ececec; margin-top: 10px; padding-top: 5px; height: 30px; line-height: 24px;}
+.total strong{ font-weight: normal; font-size: 12px;  }
+.total .ctrl{ float: right; font-size: 13px; }
+.total .ctrl span{ margin-right: 10px; }
+.total .ctrl a{ width: 60px; height: 24px; display: inline-block; text-align: center;}
+.total .ctrl a.cancel-order{ color: #626262; background: -webkit-linear-gradient(top,#fff,#f6f6f6); border: 1px solid #ececec; border-radius: 4px; padding: 0 8px; }
+.total .ctrl a.pay-btn{ color: #fff; background: #fe6771; border: 1px solid #fd5863; border-radius: 4px; }
+
+.loading{ background: #eee; height: 44px; line-height: 24px; padding: 10px 0; text-align: center; font-size: 14px; color: #b1b1b1;}
+.loading .icon-loading{ display: inline-block; width: 15px; height: 15px; background: url(../images/loading.gif) no-repeat; background-size: 15px auto; vertical-align: middle; margin-right: 5px; }
+
+
+footer a{ float: left; width: 33.333333%; text-align: center; color: #7d7d7d; position: relative;}
+footer a .icon{ display: block; padding-top: 8px; }
+footer a span{ display: block; height: 25px; line-height: 25px; font-size: 10px;  text-align: center;}
+footer a.cur{ color: #fe6672 }
+footer a.remind:after{ content: ""; width: 10px; height: 10px; border-radius: 5px; background: #fe6672; position: absolute; left: 50%; margin-left: 11px; top: 6px; }
+

@@ -1,0 +1,14 @@
+{"msgList" : [
+		{"userName": "二董", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s1.jpg"},
+		{"userName": "CC", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s2.jpg"},
+		{"userName": "2G & CC", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s1.jpg"},
+		{"userName": "小QQ", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s2.jpg"},
+		{"userName": "小TT", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s1.jpg"},
+		{"userName": "SS", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s2.jpg"},
+		{"userName": "HJ", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s2.jpg"},
+		{"userName": "PD", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s2.jpg"},
+		{"userName": "JL", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s1.jpg"},
+		{"userName": "二董", "userImg":"static/images/test/user1.jpg","msg":"我有好多亿，送你几亿可好？", "time":"2016.05.27 12:00:00", "mrsName": "小皓", "msrImg":"static/images/test/s1.jpg"}
+	],
+	"pageCount":4
+}

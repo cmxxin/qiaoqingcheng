@@ -1,0 +1,89 @@
+.main{ padding: 48px 0 10px; margin: 0}
+header .backToStore{left: 0; width: 48px; text-align: center; line-height: 48px; display: block; position: absolute; top: 0; height: 48px;}
+header .backToStore .icon{font-size: 22px; color: #626262;}
+#storePage, #adrPage{ animation-duration:.2s;}
+
+.geoinfo{ background: #f8f8f8; height: 40px; padding: 0 20px; position: relative;}
+.geoinfo:after{ content: ""; width: 10px; height: 10px; border: 1px solid #dadada; border-left: none; border-bottom: 0; transform: rotate(45deg); position: absolute; right: 20px; top: 14px;}
+.geoinfo a{ display: block; height: 40px; line-height: 40px; font-size: 12px; color: #fe6771; }
+.geoinfo a .icon{ font-size: 14px; color: #acacac; margin-right: 4px;}
+
+#mrs-loading{ margin: 50px auto; width: 54px; padding-top: 35px; height: 25px; line-height: 25px; font-size: 12px; color: #acacac; background: url(../images/loading_logo.gif) top center no-repeat; background-size: 35px auto;}
+.mrs-wrap{ margin-top: 10px;}
+.store-box{ margin-bottom: 10px; background: #fff;}
+.store{ padding: 20px 20px 0;}
+.store dt{ float: left; width: 52px; height: 52px; background: url('../images/store_bg.png') no-repeat; background-size: 52px auto;}
+.store dt img{ width: 52px; height: 52px; border-radius: 4px;}
+.store dd{ margin-left: 68px; min-height: 52px;}
+.store dd h4{ font-size: 15px; color: #626262; font-weight: 600; height: 22px; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.store dd p{ margin-top: 4px; height: 26px; line-height: 26px; font-size: 11px; color: #626262;}
+
+.location{ margin: 15px 0 0 0; padding: 10px 0; min-height: 25px; border-top: 1px solid #ececec; padding-right: 41px; position: relative;}
+.location a{ display: block; line-height: 25px; font-size: 12px; color: #626262;}
+.location a .icon{ font-size: 18px; color: #fe6771; vertical-align: -1px; }
+.location .tel{ position: absolute; right: 0; top: 50%; margin-top: -12px; display: block; width: 40px; height: 25px; border-left: 1px solid #ececec; text-align: center;}
+.location .tel .icon{  font-size: 20px; color: #acacac;}
+
+.mrsList{position: relative;}
+.mrs-item{ display: block;}
+.mrs-item dl{ padding: 16px 20px; min-height: 104px; border-bottom: 1px solid #ececec;}
+.mrs-item dt{ float: left; width: 68px; height: 68px; border: 1px solid #ececec; border-radius: 35px;}
+.mrs-item dt img{ width: 68px; height: 68px; border-radius: 34px;}
+.mrs-item dd{ margin-left: 82px;}
+.mrs-item dd h5{ font-size: 15px; color: #4b4b4b; font-weight: 600; height: 18px; line-height: 18px; }
+.mrs-item dd p{ line-height: 16px; font-size: 12px; color: #acacac; padding: 3px 0; min-height: 32px;}
+.mrs-item dd p span{font-size: 12px; font-family: "sans-serif"; color: #7d7d7d; height: 16px; line-height: 16px;}
+.mrs-item dd p span .icon{ margin-right: 3px;}
+.mrs-item dd p span .icon-order1{ font-size: 14px; color: #ffbb28;}
+.mrs-item dd p span .icon-fav{ color: #fd8080}
+.mrsList .mrs-unfold{ position: absolute; right: 20px; bottom: -13px; display: block; width: 26px; height: 26px; border: 1px solid #c9c9c9; border-radius: 14px; background: #fff;}
+.mrsList .mrs-unfold:after{ position: absolute; left: 50%; top: 50%; margin-left: -5px; margin-top: -7px; content: ""; width: 10px; height: 10px; border: 1px solid #c9c9c9; border-top: 0; border-left: none; transform: rotate(45deg); transition: all .3s linear;}
+.mrsList .mrs-fold:after{ transform: rotate(-135deg); margin-left: -5px; margin-top: -4px;}
+
+.citySwitch { background: #fff; padding: 0 20px; margin-top: 10px;}
+.citySwitch h3{ height: 30px; line-height: 30px; font-size: 12px; color: #acacac; font-weight: normal; position: relative;}
+.citySwitch h3 span{ font-weight: 600; color: #fe6771; padding: 0 5px;}
+.citySwitch h3 .select{ position: relative; text-align: center; display: inline-block; height: 22px; line-height: 20px; padding: 0 16px 0 5px; border: 1px solid #dfdfdf; border-radius: 3px; vertical-align: 0px;}
+.citySwitch h3 .select:after{ content: "▼"; color: #dfdfdf; font-size: 12px; position: absolute; right: 4px; top: 0;}
+.citySwitch h3 i{ font-style: normal; z-index: 1;}
+.citySwitch h3 select{ opacity: 0; position: absolute; left: 0; top: 0; width: 55px; height: 22px; z-index: 100;}
+.search{ position: relative; margin: 20px 20px 15px; border: 1px solid #dfdfdf; border-radius: 6px; height: 37px; font-size: 14px; padding-left: 10px; background: #fff; overflow: hidden;}
+.search input{ display: block; width: 90%; height: 37px; line-height: 35px; padding: 11px 0; border-style: none;}
+.search a{ display: block; width: 36px; height: 36px; line-height: 36px; position: absolute; right: 0; top: 0; text-align: center;}
+.search a .icon{ color: #dfdfdf; font-size: 22px;}
+
+.search-list h3{ height: 24px; line-height: 24px; font-size: 11px; font-weight: normal; color: #acacac; padding-left: 20px; background: #f8f8f8; border-bottom: 1px solid #dfdfdf;}
+.search-list ul{ background: #fff; padding: 0 20px;}
+.search-list li{ position: relative; overflow: visible; border-top: 1px solid #ececec;  color: #333; padding: 12px 0;}
+.search-list li p{ font-size: 15px; font-weight: 600; color: #333; line-height: 22px; height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.search-list li span{ display: block; height: 15px; line-height: 15px; font-size: 10px; color: #acacac; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.search-list li.noresult{font-weight: normal; color: #acacac; font-size: 12px;}
+
+#mb{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(51,51,51,.75); z-index: 100; }
+#selectTime{position: fixed; bottom: -190px; left: 0; height: 190px; width: 100%; z-index: 500; background: #fff; font-size: 16px; color: #999; transition: transform .3s ease-in-out;}
+#selectTime h3{ height: 40px; line-height: 40px; text-align: center; padding: 0 10px;}
+#selectTime h3 a{ font-weight: normal; margin-top: 6px; display: block; font-size: 13px; text-align: center; width: 40px; height: 28px; line-height: 28px; border-radius: 3px;}
+#selectTime h3 .t-cancel{ float: left; background: #ececec; color: #1a1a1a;}
+#selectTime h3 .t-sure{ float: right; color: #fff; background: #fe6771;}
+#selectTime h3 .t-sure.not{ color: #a1a1a1; background: #ececec;}
+#dateTime{overflow: hidden; height: 150px; width: 100%; position: relative; font-family: "sans-serif"}
+#dateTime:before{ content: ""; position: absolute; left: 0; top: 59px; width: 100%; height: 32px; border-top: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf;}
+#dateTime:after{ content: ""; position: absolute; left: 50%; top: 0; height: 100%; width: 1px; background-image: -ms-linear-gradient(top,rgba(255,255,255,0),rgba(254,103,113,1),rgba(255,255,255,0)); background-image: -moz-linear-gradient(top,rgba(255,255,255,0),rgba(254,103,113,1),rgba(255,255,255,0)); background-image: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(254,103,113,1),rgba(255,255,255,0)); background-image: -o-linear-gradient(top,rgba(255,255,255,0),rgba(254,103,113,1),rgba(255,255,255,0)); background-image: linear-gradient(top,rgba(255,255,255,0),rgba(254,103,113,1),rgba(255,255,255,0))}
+#dateTime>div{ float: left; width: 50%; height: 100%; position: relative;}
+#dateTime>div ul{ position: absolute; left: 0; top: 0; width: 100%; padding: 60px 0; box-sizing: content-box}
+#dateTime>div li{ position: relative; height: 30px; line-height: 30px; text-align: center; font-weight: normal; color: transparent; text-shadow: 0 0 1px #b1b1b1;}
+#dateTime li.active{ color: #fe6771; font-weight: 600; text-shadow: none;}
+#dateTime li.booked.active{color: #b1b1b1; margin: 0; background: 0;}
+#dateTime li.booked:after{content: "(已约满)"; position: absolute; right: 12px; top: 0; font-size: 12px; height: 30px; line-height: 30px;}
+
+#scrollTop{ bottom: 20px}
+.loading{ background: #fff; height: 44px; line-height: 24px; padding: 10px 0; text-align: center; font-size: 14px; color: #b1b1b1;}
+.loading .icon-loading{ display: inline-block; width: 15px; height: 15px; background: url(../images/loading.gif) no-repeat; background-size: 15px auto; vertical-align: middle; margin-right: 5px; }
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+.main{ padding: 48px 0 70px; margin: 0; }
+.items{ margin-top: 10px; background: #fff; }
+.items h3{ height: 27px; line-height: 27px; padding: 0 20px; font-size: 12px; color: #666; background: #f8f8f8;}
+.item{ padding: 16px 0; margin: 0 20px; position: relative; border-top: 1px solid #ececec; overflow: hidden;}
+.item:first-of-type {border-top: 0;}
+.item .p-img{ float: left; width: 87px; height: 58px; border-radius: 4px; overflow: hidden;}
+.item .p-img img{ width: 100%; }
+.item .p-msg{ margin-left: 96px; }
+.item .p-msg h4{ font-size: 13px; color: #4b4b4b; line-height: 14px; font-weight: normal; }
+.item .p-msg p{ font-size: 11px; padding-top: 5px; min-height: 16px; line-height: 21px; color: #999;}
+.item .p-msg p .icon{ font-size: 10px; color: #fe6771; margin-right: 3px; }
+.item .p-msg p:last-of-type{ height: 22px; line-height: 22px; font-size: 18px; color: #fe6771;  padding-top: 0; font-family: verdana;}
+
+.item .amount{bottom: 13px;}
+.amount{ position: absolute; width: 77px; height: 24px; right: 0;  bottom: 0;}
+.amount a,
+.fold a{ width: 24px; height: 24px; float: left; border-width: 1px; border-style: solid; line-height: 22px; text-align: center; font-size: 20px; }
+.amount .minus{ border-color:#dfdfdf; border-radius: 4px 0 0 4px; color: #999; }
+.amount .add,
+.fold .add{ border-color: #fe6771; border-radius: 0 4px 4px 0; color: #fff; background: #fe6771;}
+.amount span{ float: left; width: 29px; height: 24px; border-top: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf; line-height: 22px; font-size: 16px; color: #999; text-align: center;}
+.fold{ position: absolute; width: 24px; height: 24px; bottom: 13px; right: 0; }
+.fold .minus,
+.fold span{ display: none; }
+.fold .add{ border-radius: 4px; }
+
+.more{ display: block; width: 100%; margin-top: -1px; height: 40px; line-height: 40px; text-align: center; font-size: 12px; color: #666; background: #f8f8f8;}
+.more .icon{ font-size: 14px; }
+
+footer{ height: 60px; }
+.bookArea{ position: fixed; left: 0; bottom: 0; z-index: 500; width: 100%; height: 60px; overflow: visible; }
+.statement{ text-align: center; }
+.statement li{ width: 33.333333%; height: 60px; float: left; background: #333; color: #fff; font-size: 12px; line-height: 20px; position: relative;}
+.statement li .icon{ font-size: 20px; position: absolute; top: 20px; left: 15px; display: inline-block; 	transform:rotate(180deg);}
+.statement li p{ padding-top: 10px; }
+.statement #order-list a{ display: block; width: 100%; height: 100%; }
+.statement #order-list i{ position: absolute; top: 20px; left: 15px; display: inline-block; width: 18px; height: 18px; text-align: center; -webkit-border-radius: 9px; border: 1px solid #fff;}
+.statement #order-list i:after{ content: ""; display: inline-block; width: 8px; height: 8px; vertical-align: 0px; border-bottom: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(-135deg) }
+.statement #order-list.unfold i:after{ transform: rotate(45deg); vertical-align: 4px;}
+.statement li span{ display: inline-block; line-height: 14px; margin-left: 10px; margin-top: 15px;text-align: center; color: #fff}
+.statement li span em{ font-style: normal; }
+.statement li span b{ font-weight: normal; }
+.statement li strong,
+.statement li label{ color: #fe6771; font-weight: 600; }
+.statement li #book{ display: block; width: 100%; height: 100%; background: #fe6771; font-size: 18px; color: #fff; line-height: 60px; }
+
+.choose-list{ position: absolute; bottom: 60px; left: 0; width: 100%; background: #f5f5f5; border-top: 1px solid #dfdfdf; -webkit-animation-duration: .3s!important;}
+.choose-list li{ margin: 15px 10px; min-height: 24px; position: relative;}
+.choose-list dl:after{content: "."; visibility: hidden; height: 0; font-size: 0; display: block; clear: both;}
+.choose-list dt,
+.choose-list dd{ float: left; padding: 4px 0; }
+.choose-list dt{ width: 35%; font-size: 11px; color: #4b4b4b; text-align: left;}
+.choose-list dd{ width: 65%; font-size: 11px; }
+.choose-list dd span{ width:34%; font-size: 11px; color: #999; text-align:center; display:inline-block;}
+.choose-list dd span .icon{ font-size:10px; color:#fe6771; margin-right: 3px;}
+.choose-list dd b{ width: 20%; font-size: 12px; color: #fe6771; text-align:center; display:inline-block; font-weight:normal;}
+.choose-list dd .amount{ top:0; }
+.choose-list dd .amount span{ font-size: 18px; }
+
+.ball { z-index: 500; background: #fe6771; display: inline-block; width: 20px; height: 20px; border-radius: 10px; position: fixed; transition: all .5s linear;}
+#mb{ position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,.8); z-index: 100; }

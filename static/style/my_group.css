@@ -1,0 +1,36 @@
+.main{ margin-top: 0 }
+.main.toload:after{ content: "加载中..."; width: 54px; padding-top: 35px; height: 25px; line-height: 25px; font-size: 12px; color: #acacac; text-align: center; background: url(../images/loading_logo.gif) top center no-repeat; background-size: 35px auto; position: absolute; left: 50%; margin-left: -27px; top: 48px; }
+.main.toload .loading{ display: none; }
+
+.item{ background: #fff; padding-top: 10px; margin-bottom: 10px }
+.p-info{ padding: 10px; position: relative;}
+.p-info:after{ content: ""; width: 0; height: 0; overflow: hidden; display: block; clear: both }
+.p-info .img{ width: 90px; height: 90px; float: left;}
+.p-info .img img{ width: 90px; height: 90px; }
+.p-info .p-detail{ padding-left: 100px;}
+.p-detail h3{ color: #27272f; height: 20px; line-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 14px; font-weight: 700;}
+
+.operation{ display: inline-block; width: 80%; margin: 12px 10px; font-size: 14px; background: #7ed6f2; border-radius: 18px; height: 30px; line-height: 30px; color: #fff; position: relative; }
+.operation i{ float: left; margin: -3px 0 0 -10px; width: 36px; height: 36px; display: inline-block; background: url(../images/pin.png) no-repeat; background-size: 36px; }
+.operation span{ color: #fff; text-align: center; margin: 0 30px; display: block }
+.operation strong{color: #fff; height: 30px; display: inline-block; border-radius: 0 36px 36px 0; padding: 0 10px; float: right; margin-right: -2px;  background: #fe6672; position: absolute; top: 0; right: 0}
+
+.btns{ margin: 0 10px; border-top: 1px solid #f1f1f1; height: 50px; line-height: 50px; }
+.btns span{ width: 26%; float: left; font-size: 14px; color: #fe6672 }
+.btns a{ width: 36%; float: left; margin-right: 2%; border: 1px solid #ccc; height: 38px; margin-top: 6px; border-radius: 5px; line-height: 38px; text-align: center; font-size: 14px;}
+.btns a:last-child{ margin-right: 0 }
+.fail .btns span{ color: #9d9d9d }
+.success .btns span{ color: #7fb343 }
+
+.loading{ background: #eee; height: 44px; line-height: 24px; text-align: center; font-size: 14px; color: #b1b1b1;}
+.loading .icon-loading{ display: inline-block; width: 15px; height: 15px; background: url(../images/loading.gif) no-repeat; background-size: 15px auto; vertical-align: middle; margin-right: 5px; }
+
+.no-order{ padding-top: 130px; text-align: center; background: url(../images/pin.png) no-repeat center 50px; background-size: 80px auto;}
+.no-order p{ height: 30px; line-height: 30px; font-size: 15px; color: #acacac; margin-top: 10px;}
+.no-order a{ display: block; height: 40px; line-height: 40px; color: #fff; border-radius: 5px; font-size: 15px; width: 135px; background: #fe6672; margin: 10px auto;}
+
+footer a{ float: left; width: 33.333333%; text-align: center; color: #7d7d7d; position: relative;}
+footer a .icon{ display: block; padding-top: 8px; }
+footer a span{ display: block; height: 25px; line-height: 25px; font-size: 10px;  text-align: center;}
+footer a.cur{ color: #fe6672 }
+footer a.remind:after{ content: ""; width: 10px; height: 10px; border-radius: 5px; background: #fe6672; position: absolute; left: 50%; margin-left: 11px; top: 6px; }

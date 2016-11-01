@@ -1,0 +1,16 @@
+body{ background: #fff; }
+.anonymous{ overflow: hidden; padding: 11px 15px; }
+.anonymous input{ width: 26px; height: 26px; display: block; float: right; background: transparent; border: 0 none; padding: 0; margin: 0; -webkit-appearance: none; outline: 0!important; color: #fff}
+.anonymous input:before{ content:"\e600"; display: block; float: right; width: 26px; height: 26px; border-radius: 13px; border: 1px solid #ccc; font-size: 18px; text-align: center; line-height: 26px; }
+.anonymous input:checked:before{ background: #fe6771; border: 0 none;  }
+
+.comment{ padding: 15px; border-top: 1px solid #ececec; }
+.comment textarea{ border: 1px solid #ececec; border-radius: 5px; width: 100%; padding:  8px;}
+
+.files{ padding: 15px; }
+.files a{ float: left; width: 30%; margin:0 5% 20px 0;  max-width: 100px; max-height: 100px; display: block; border:1px solid #ccc; line-height: 2.25rem; border-radius: 3px;  position: relative; cursor: pointer; overflow: hidden;}
+.files a:nth-of-type(3n){ margin-right: 0; }
+.files a img{ width: 100%; height: 100%; }
+.files a input{ position: absolute; font-size: 100px; right: 0; top: 0; opacity: 0; filter: alpha(opacity=0); cursor: pointer; }
+
+footer a{ display: block; width: 100%; height: 50px; line-height: 50px; text-align: center; font-size: 16px; color: #fff; background: #fe6771;}

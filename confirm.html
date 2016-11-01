@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no" searchtype="map">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>美道家</title>
+	<link rel="stylesheet" type="text/css" href="static/style/common.css">
+	<link rel="stylesheet" type="text/css" href="static/style/confirm.css">
+	<link rel="stylesheet" type="text/css" href="static/style/animate.css">
+	<script type="text/javascript" src="static/scripts/zepto.min.js"></script>
+	<script type="text/javascript" src="static/scripts/confirm.js"></script>
+</head>
+<body>
+	<div id="orderPage">
+		<header>
+			<a href="javascript:;" class="goback"><i class="icon icon-left"></i></a>
+			<h1>订单确认</h1>
+			<a href="tel:400-2222-222" class="phone"><i class="icon icon-phone"></i></a>
+		</header>
+		<section class="main">
+			<form action="" method="POST" id="order">
+				<input type="hidden" id="couponId">
+				<div class="box user-info mt10">
+					<ul>
+						<li>
+							<label>预约人：</label>
+							<input type="text" placeholder="请输入姓名" id="userName">
+						</li>
+						<li>
+							<label>电话：</label>
+							<input type="text" placeholder="请输入手机号" id="telephone" value="13560101020">
+						</li>
+					</ul>
+				</div>
+				<div class="box mt10 store-info">
+					<a href="javascript:;" class="mrs-choose">
+						<dl>
+							<dt>
+								<img src="static/images/test/store2.jpg" alt="">
+							</dt>
+							<dd>
+								<h4>张玉珊修身堂</h4>
+							</dd>
+						</dl>
+					</a>
+					<div class="box adr-phone">
+						<a href="javascript:;" class="adr">广州番禺区南村广州雅居乐花园观景路花巷88号</a>
+						<a href="tel:40022222222" class="phone"><i class="icon icon-phone"></i></a>
+					</div>
+				</div>
+				<div class="mt10 item-info">
+					<h3>预约项目 <span>支付后项目不可修改</span></h3>
+					<div class="item">
+						<dl>
+							<dt>
+								<img src="static/images/test/b2.jpg" alt="">
+							</dt>
+							<dd>
+								<h4>补水拔筋术</h4>
+								<p>数量：1<i class="icon icon-time"></i>150分钟</p>
+								<p><em>￥</em>465</p>
+							</dd>
+						</dl>
+					</div>
+					<div class="item">
+						<dl>
+							<dt>
+								<img src="static/images/test/b2.jpg" alt="">
+							</dt>
+							<dd>
+								<h4>补水拔筋术</h4>
+								<p>数量：1<i class="icon icon-time"></i>150分钟</p>
+								<p><em>￥</em>465</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="box other-info">
+					<ul>
+						<li>
+							<label>合计：</label>
+							<span class="price">
+								￥198
+								<b><i class="icon icon-time"></i>60分钟</b>
+							</span>
+						</li>
+						<li>
+							<a href="javascript:;" class="change-coupon">
+								<label>优惠券：</label>
+								<span>
+									100.00代金券
+								</span>
+							</a>
+						</li>
+						<li>
+							<label>实付金额：</label>
+							<span class="total">￥98</span>
+						</li>
+					</ul>
+				</div>
+				<div class="pay-info mt10">
+					<h3>选择支付方式</h3>
+					<a href="javascript:;">
+						<i class="icon icon-wechat"></i>
+						微信支付
+						<i class="icon icon-right"></i>
+					</a>
+				</div>
+				<div class="remind">
+					1.服务开始前／美容师出发前，您可致电客服修改订单，限一次。<br>
+					2.微信支付对于不同的银行卡限额不同，请确认限额后购买。若超过限定额度，可以转入微信钱包后支付。<br>
+					3.目前美道家所有服务仅针对女性用户。
+				</div>
+				<div class="agreement">
+					<input type="checkbox" checked="checked">
+					<a href="javascript:;">我已阅读并同意《美道家平台服务协议》</a>
+				</div>
+			</form>
+		</section>
+	</div>
+	<div id="couponPage" class="hide">
+		<header>
+			<a href="javascript:;" class="backToOrder"><i class="icon icon-left"></i></a>
+			<h1>优惠券</h1>
+			<a href="tel:400-2222-222" class="phone"><i class="icon icon-phone"></i></a>
+		</header>
+		<section class="main">
+			<a id="noCoupon" href="javascript:;" class="noCard">不使用优惠券</a>
+			<div class="couponList">
+				<dl data-id="612685" data-tit="100元代金券">
+					<dt>
+						100<em>元</em>
+					</dt>
+					<dd>
+						<h4>代金券</h4>
+						<p>限项目使用</p>
+						<p>有效时间：2014/12/11-2016/12/31</p>
+						<a href="javascript:;" class="show-detail"></a>
+						<span>通用</span>
+					</dd>
+				</dl>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<a href="javascript:;" id="bookBtn">立即下单</a>
+	</footer>
+	<aside>
+		<div id="loading" class="hide"></div>
+	</aside>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{ background: #fff;}
+ul, li{ margin: 0; padding: 0; list-style: none;}
+#tree{ width: 100%; background: #fff;}
+#tree ul{ position: relative;}
+#tree ul:before{ display: inline-block; content: ""; position: absolute; top: -7px; bottom: 18px; left: 8px; border: 1px dashed #b1c4c6; border-width: 0 0 0 1px; z-index: 1;}
+#tree ul li{ position: relative; padding-left: 19px; border: 0 none;}
+#tree ul li:before{ display: inline-block; content: ""; width: 8px; position: absolute; top: 18px; left: 10px; border-top: 1px dashed #b1c4c6;}
+#tree ul li	a{ width: 100%; height: 36px; line-height: 36px; display: block; text-decoration: none;}

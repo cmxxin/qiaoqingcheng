@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no" searchtype="map">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>拼团</title>
+	<link rel="stylesheet" type="text/css" href="static/style/common.css">
+	<link rel="stylesheet" type="text/css" href="static/style/group_join.css">
+	<script type="text/javascript" src="static/scripts/zepto.min.js"></script>
+	<script type="text/javascript" src="static/scripts/group_join.js"></script>
+</head>
+<body>
+	<section class="main">
+		<!-- 组团失败 -->
+		<!-- <div class="group-status group-fail">
+			<p><i class="icon icon-del"></i>此团已满</p>
+			<h3>掐指一算你就是下一个团长~</h3>
+		</div> -->
+
+		<!-- 组团成功 -->
+		<!-- <div class="group-status group-success">
+			<p>终于等到你，快来参团</p>
+		</div> -->
+
+		<!-- 创建拼团 -->
+		<div class="group-status group-create">
+			<p><i class="icon icon-right"></i>拼团中</p>
+			<h3>还差4人成功，去邀请好友参团</h3>
+		</div>
+
+		<div class="p-info">
+			<div class="img">
+				<img src="static/images/test/p1.jpg" alt="">
+			</div>
+			<div class="p-detail">
+				<h3>海南青柠檬8个装新鲜售卖（中果）</h3>
+				<p>5人团：<span>￥9.9/件</span></p>
+			</div>
+
+			<!-- 两个class 成功success 失败fail 进行中不显示 -->
+			
+			<!-- <div class="status success"></div> -->
+		</div>
+
+		<div class="group-user">
+			<span><img src="static/images/test/user1.jpg" alt=""></span><span><img src="static/images/test/user2.jpg" alt=""></span><span><img src="static/images/test/user3.jpg" alt=""></span><span><img src="static/images/test/user4.jpg" alt=""></span><span><img src="static/images/default_user.png" alt=""></span>
+		</div>
+
+		<div class="remind">
+			<p>还差<span>1</span>人，盼星星盼月亮终于把你给盼来了</p>
+		</div>
+
+		<div class="countDown">
+			<div class="timer" data-expired="2016/06/29 10:57:59">
+				<span class="dot">剩余</span>
+				<span class="time t-h">00</span>
+				<span class="dot">:</span>
+				<span class="time t-m">00</span>
+				<span class="dot">:</span>
+				<span class="time t-s">00</span>
+				<span class="dot">结束</span>
+			</div>
+		</div>
+
+		<div class="all-member">
+			<a href="javascript:;"><span>查看全部团详情<i></i></span></a>
+			<div class="member">
+				<ul>
+					<li>
+						<img src="static/images/test/user1.jpg" alt="">
+						<span>128******21</span>
+						<span>2016-06-27 10:56:12开团</span>
+					</li>
+					<li>
+						<img src="static/images/test/user2.jpg" alt="">
+						<span>128******21</span>
+						<span>2016-06-27 10:56:12参团</span>
+					</li>
+					<li>
+						<img src="static/images/test/user3.jpg" alt="">
+						<span>128******21</span>
+						<span>2016-06-27 10:56:12参团</span>
+					</li>
+					<li>
+						<img src="static/images/test/user4.jpg" alt="">
+						<span>128******21</span>
+						<span>2016-06-27 10:56:12参团</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="guild">
+			<div class="sub-tit"><i></i>拼团玩法<span>查看详情></span></div>
+			<div class="step">
+				<div class="step-item">
+					<i>1</i>
+					<span>选择<br>心仪商品</span>
+				</div>
+				<div class="step-item cur">
+					<i>2</i>
+					<span>支付开团<br>或参团</span>
+				</div>
+				<div class="step-item">
+					<i>3</i>
+					<span>邀请好友<br>参团支付</span>
+				</div>
+				<div class="step-item">
+					<i>4</i>
+					<span>达到人数<br>团购成功</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<!-- 组团失败 -->
+		<!-- <a href="javascript:;" class="open-btn">我也要开团</a>
+		<a href="javascript:;" class="look-other">看看其他团</a> -->
+
+		<!-- 组团成功 -->
+		<!-- <a href="javascript:;" class="go-home"><i class="icon icon-home"></i></a>
+		<a href="javascript:;" class="go-share"><i class="icon icon-share"></i></a>
+		<p>
+			<a href="javascript:;" class="join-group">我也要参团</a>
+		</p> -->
+
+		<!-- 创建拼团 -->
+		<a href="javascript:;" class="go-home"><i class="icon icon-home"></i></a>
+		<div class="click-me">
+			<a href="javascript:;">点我加速成团</a>
+		</div>
+	</footer>
+	<aside>
+		<div id="loading" class="hide"></div>
+		<a id="scrollTop" href="javascript:;" class="hide"><i class="icon icon-top"></i></a>
+		<div id="share-layer" class="hide">
+			<span></span>
+			<h4>点击右上角，分享给小伙伴~</h4>
+			<p>还差<em>4</em>人拼团成功，快邀请好友参团~</p>
+			<p>(悄悄告诉你，分享到微信群成团会更快呦)</p>
+		</div>
+	</aside>
+</body>
+</html>

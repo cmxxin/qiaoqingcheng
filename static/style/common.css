@@ -1,0 +1,93 @@
+@charset "utf-8";
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; outline: 0;}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6 { -webkit-text-size-adjust: none; }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; clear: both; } 
+body { font-family: 'Microsoft YaHei',arial,helvetica,sans-serif; -webkit-text-size-adjust: none; color: #626262; background: #eee; -webkit-text-size-adjust: none; min-width: 320px; font-size: 17px; }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; }
+form { display: inline; }
+textarea { resize: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+ul,ol { list-style: none; }
+input,select,button { font-family: 'Microsoft YaHei',arial,helvetica,sans-serif; font-size: 100%; vertical-align: middle; outline: 0; }
+button,input[type="button"],input[type="reset"],input[type="submit"] { cursor: pointer; -webkit-appearance: button; -moz-appearance: button; }
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder,textarea:focus:-moz-placeholder,textarea:focus::-webkit-input-placeholder { color: transparent; }
+button::-moz-focus-inner,input::-moz-focus-inner { padding: 0; border: 0; }
+a { text-decoration: none; color: #111; }
+a:hover {text-decoration: none; }
+img { vertical-align: middle; font-size: 0; border: 0; -ms-interpolation-mode: bicubic; }
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:before,
+*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.middle-nav ul:after{ content: "."; visibility: hidden; height: 0; font-size: 0; display: block; clear: both; }
+.fl { float: left; }
+.fr { float: right; }
+.hide { display: none!important; }
+.show { display: block!important; }
+
+header{ position: fixed; left: 0; top: 0; width: 100%; border-bottom: 1px solid #ececec; overflow: hidden; background: #fff; z-index: 500; }
+header a{ display: block; position: absolute; top: 0; height: 48px; }
+header .choose-city{ left: 0; padding: 0 8px; font-size: 15px; line-height: 48px }
+header .choose-city .icon{ margin-left: 3px; color: #999}
+header .phone{ right: 0; width: 48px; text-align: center; line-height: 48px; }
+header .phone .icon{ font-size: 20px }
+header h1{ text-align: center; line-height: 48px; color: #626262; font-size: 17px; }
+header .close,
+header .goback{	left: 0; width: 48px; text-align: center; line-height: 48px;}
+header .close .icon,
+header .goback .icon{ font-size: 22px; color: #626262}
+
+.main{ margin: 48px 0 70px; }
+
+footer{ position: fixed; bottom: 0 ; left: 0; width: 100%; height: 50px; border-top: 1px solid #dbdbdb; z-index: 500; background: #fff; }
+
+#scrollTop{display: block; width: 36px; height: 36px; position: fixed; right: 20px; bottom: 90px; background: rgba(254, 102, 114, .5); border-radius: 18px; text-align: center; line-height: 36px;}
+#scrollTop .icon{ color: #fff; font-size: 20px; }
+
+.icon-s{ display: inline-block; border-radius: 2px; width: 25px; height: 15px; line-height: 15px; text-align: center; font-size: 10px; color: #fff; margin-right: 5px; font-style: normal;}
+.icon-s.shop{  background: #fe6672; }
+.icon-s.home{ background: #ffc573 }
+
+#loading { z-index: 600; font-size: 13px; color: #fff; line-height: 24px; padding-top: 90px; padding-bottom: 5px; text-align: center; width: 150px; position: fixed; left: 50%; top: 50%; margin-left: -75px; margin-top: -75px; background: rgba(0,0,0,.8); border-radius: 6px; -webkit-animation-duration: 1s!important}
+#loading span { display: block; width: 37px; height: 37px; position: absolute; left: 57px; top: 38px; background: url(../images/loading_logo.gif) no-repeat; background-size: 37px auto;}
+#loading .fail { background: url(../images/tips_bg.png) no-repeat -52px 0px; background-size: 86px auto }
+#loading .succ { background: url(../images/tips_bg.png) no-repeat 0 0px; background-size: 86px auto; background-position: 0 0}
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1464098163'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1464098163#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1464098163') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1464098163') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1464098163#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon { font-family:"iconfont" !important; font-size:16px; font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+.icon-share:before { content: "\e61a"; }
+.icon-location:before { content: "\e60e"; }
+.icon-home:before { content: "\e61b"; }
+.icon-fav:before { content: "\e613"; }
+.icon-spinner:before { content: "\e607"; }
+.icon-down:before { content: "\e600"; }
+.icon-yoho-time:before { content: "\e605"; }
+.icon-zan:before { content: "\e602"; }
+.icon-right:before { content: "\e614"; }
+.icon-order1:before { content: "\e611"; }
+.icon-left:before { content: "\e60b"; }
+.icon-location2:before { content: "\e615"; }
+.icon-del:before { content: "\e610"; }
+.icon-location1:before { content: "\e60f"; }
+.icon-order:before { content: "\e604"; }
+.icon-xing:before { content: "\e606"; }
+.icon-phone:before { content: "\e601"; }
+.icon-message:before { content: "\e616"; }
+.icon-X:before { content: "\e608"; }
+.icon-time:before { content: "\e603"; }
+.icon-wechat:before { content: "\e612"; }
+.icon-agree:before { content: "\e617"; }
+.icon-zan2:before { content: "\e60c"; }
+.icon-user:before { content: "\e609"; }
+.icon-order2:before { content: "\e618"; }
+.icon-coupon:before { content: "\e619"; }
+.icon-down1:before { content: "\e60d"; }
+.icon-top:before { content: "\e60a"; }
+

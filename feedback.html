@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no" searchtype="map">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>美道家</title>
+	<link rel="stylesheet" type="text/css" href="static/style/common.css">
+	<link rel="stylesheet" type="text/css" href="static/style/animate.css">
+	<script type="text/javascript" src="static/scripts/zepto.min.js"></script>
+	<style type="text/css">
+		body{ background: #fff }
+		.adv{ padding:15px 20px;}
+		.adv textarea{ width:100%; border:1px solid #ececec; border-radius:4px; padding:8px 10px; color:#acacac; line-height:20px; }
+		footer a{ display: block; width: 100%; height: 50px; line-height: 50px; text-align: center; font-size: 15px; color: #fff; background: #fe6771; }
+	</style>
+</head>
+<body>
+	<header>
+		<a href="javascript:;" class="goback"><i class="icon icon-left"></i></a>
+		<h1>投诉建议</h1>
+		<a href="tel:400-2222-222" class="phone"><i class="icon icon-phone"></i></a>
+	</header>
+	<section class="main">
+		<form action="" method="POST" id="adviceFrom">
+			<div class="adv">
+				<textarea name="advice" id="advice" rows="5" placeholder="您的建议对我们非常重要"></textarea>
+			</div>
+		</form>
+	</section>
+	<footer>
+		<a href="javascript:;">发布</a>
+	</footer>
+	<div id="loading" class="hide"></div>
+
+<script type="text/javascript">
+$(function(){
+	$('footer').on('click', 'a', function(){
+		var obj = $('#advice'),
+				val = obj.val();
+		if(val == "" || val == undefined){
+			showTips('投诉建议内容不能为空！')
+		}else{
+			$('#adviceFrom').submit();
+		}
+	})
+
+	function showTips(str){
+		var load = $('#loading')
+		load.html('<span class="fail"></span>'+str).removeClass("hide").addClass("animated").addClass("fadeInUp");
+		setTimeout(function() {
+			load.attr("class", "hide").html("");
+		}, 2000)
+	}
+})
+</script>
+</body>
+</html>

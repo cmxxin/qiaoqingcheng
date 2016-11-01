@@ -1,0 +1,8 @@
+.main{ margin: 0; background: #fff; padding: 10px 15px 50px; color: #404040; font-size: 14px;}
+.top-logo{ height: 120px; background:#e83d4d url(../images/logo_white.png) no-repeat center center; background-size: 213px auto;}
+.top-logo h1,
+.top-logo p{ opacity: 0 }
+
+.main h3{ height: 40px; line-height: 40px; border-bottom: 1px solid #dbdbdb; padding: 0 8px; position: relative; font-weight: 600;}
+.main h3:before{ content: ""; width: 3px; height: 16px; background: #e83d4d; position: absolute; left: -1px; top: 12px;}
+.main p{ padding: 10px 0; line-height: 20px;}

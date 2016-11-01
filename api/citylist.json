@@ -1,0 +1,24 @@
+{ "hot":[{"cityId":"1", "name":"北京"},{"cityId":"2", "name":"上海"},{"cityId":"3", "name":"广州"},{"cityId":"833", "name":"成都"}],
+  "list":[
+    {"tab":"B", "subList":[{"cityId":"1", "name":"北京"},{"cityId":"1246", "name":"包头"}]},
+    {"tab":"C", "subList":[{"cityId":"833", "name":"成都"},{"cityId":"1224", "name":"重庆"}]},
+    {"tab":"D", "subList":[{"cityId":"1225", "name":"大连"},{"cityId":"1228", "name":"德阳"},{"cityId":"1233", "name":"丹东"},{"cityId":"1247", "name":"东莞"},{"cityId":"1270", "name":"大庆"}]},
+    {"tab":"E", "subList":[{"cityId":"1266", "name":"鄂尔多斯"}]},
+    {"tab":"F", "subList":[{"cityId":"1252", "name":"佛山"},{"cityId":"1292", "name":"抚州"}]},
+    {"tab":"G", "subList":[{"cityId":"3", "name":"广州"},{"cityId":"1241", "name":"贵阳"},{"cityId":"1263", "name":"赣州"},{"cityId":"1279", "name":"广安"}]},
+    {"tab":"H", "subList":[{"cityId":"1227", "name":"杭州"},{"cityId":"1229", "name":"哈尔滨"},{"cityId":"1260", "name":"呼和浩特"},{"cityId":"1275", "name":"惠州"},{"cityId":"1276", "name":"衡水"}]},
+    {"tab":"J", "subList":[{"cityId":"1234", "name":"金华"},{"cityId":"1235", "name":"嘉兴"},{"cityId":"1248", "name":"吉林"},{"cityId":"1278", "name":"吉安"}]},
+    {"tab":"L", "subList":[{"cityId":"1232", "name":"乐山"},{"cityId":"1249", "name":"廊坊"},{"cityId":"1273", "name":"洛阳"}]},
+    {"tab":"N", "subList":[{"cityId":"1243", "name":"南昌"},{"cityId":"1254", "name":"宁波"},{"cityId":"1256", "name":"南宁"},{"cityId":"1267", "name":"内江"}]},
+    {"tab":"P", "subList":[{"cityId":"1238", "name":"盘锦"}]},
+    {"tab":"S", "subList":[{"cityId":"2", "name":"上海"},{"cityId":"4", "name":"深圳"},{"cityId":"1226", "name":"沈阳"},{"cityId":"1244", "name":"四平"},{"cityId":"1251", "name":"上饶"},{"cityId":"1264", "name":"商洛"},{"cityId":"1272", "name":"绍兴"},{"cityId":"1286", "name":"苏州"}]},
+    {"tab":"T", "subList":[{"cityId":"1231", "name":"台州"},{"cityId":"1255", "name":"通辽"}]},
+    {"tab":"W", "subList":[{"cityId":"1230", "name":"温州"},{"cityId":"1268", "name":"渭南"}]},
+    {"tab":"X", "subList":[{"cityId":"1245", "name":"西安"},{"cityId":"1269", "name":"新余"},{"cityId":"1277", "name":"新乡"}]},
+    {"tab":"Z", "subList":[{"cityId":"1236", "name":"郑州"},{"cityId":"1265", "name":"自贡"},{"cityId":"1274", "name":"湛江"},{"cityId":"1281", "name":"周口"}]}
+  ]
+
+}
+
+
+

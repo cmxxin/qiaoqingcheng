@@ -1,0 +1,74 @@
+#orderPage, #couponPage, footer.animated{ animation-duration:.5s;}
+.backToOrder{ left: 0; width: 48px; text-align: center; line-height: 48px; display: block; position: absolute; top: 0; height: 48px;}
+.backToOrder .icon{font-size: 22px; color: #626262;}
+.mt10{ margin-top: 10px;}
+.pt20{ padding-top: 20px !important;}
+.main{ padding: 49px 0 70px; margin: 0}
+.pb10 .main{ padding-bottom: 10px}
+form{ display: inline}
+.box{ background: #fff; padding: 0 20px;}
+.user-info li{ height: 48px; line-height: 48px; font-size: 15px; color: #4b4b4b; border-top: 1px solid #ececec; position: relative;}
+.user-info li:first-child{ border-top: 0 none;}
+.user-info li label{ float: left; height: 48px; line-height: 48px; position: absolute; left: 0; top: 0}
+.user-info li input,
+.user-info li span{ border-style: none; display: inline-block; height: 42px; line-height: 18px; padding: 10px 0 14px 68px; width: 100%;}
+
+.store-info{ padding-top: 20px;}
+.store-info dt{ float: left; width: 52px; height: 52px; background: url(../images/store_bg.png) no-repeat; background-size: 52px auto; border-radius: 4px;}
+.store-info dt img{ width: 52px; height: 52px; border-radius: 4px;}
+.store-info dd{ margin-left: 68px; min-height: 52px;}
+.store-info dd h4{ color: #4b4b4b; height: 20px; line-height: 20px; font-size: 15px; font-weight: 600; }
+.store-info dd p{ margin-top: 0; height: 16px; line-height: 16px; color: #acacac; font-size: 12px;}
+.mrs-choose{ display: block; position: relative;}
+.mrs-choose:after{ content: ""; width: 10px; height: 10px; border: 1px solid #acacac; border-left: none; border-top: 0; transform: rotate(-45deg); position: absolute; right: 0; top: 20px;}
+
+.adr-phone{margin: 15px 0 0 0; padding: 10px 0; min-height: 25px; border-top: 1px solid #ececec; padding-right: 41px; position: relative;}
+.adr-phone .adr{ display: block; line-height: 25px; font-size: 12px; color: #626262;}
+.adr-phone .phone{ position: absolute; right: 0; top: 50%; margin-top: -12px; display: block; width: 40px; height: 25px; border-left: 1px solid #ececec; text-align: center;}
+.adr-phone .phone .icon{ font-size: 22px; color: #aaa}
+
+.item-info{ background: #fff;}
+.item-info h3,
+.pay-info h3{ height: 27px; line-height: 27px;  font-size: 12px; color: #666; background: #f8f8f8; padding: 0 20px;}
+.item-info h3 span{ float: right; color: #acacac}
+.item-info dl{ margin: 0 20px; padding: 16px 0; border-bottom: 1px solid #ececec; }
+.item-info .item:last-child dl{ border-bottom: 0 none}
+.item-info dt{ float: left; width: 87px; height: 58px; border-radius: 4px; overflow: hidden; position: relative;}
+.item-info dt img{ width: 87px; height: 58px; border-radius: 4px;}
+.item-info dd{ margin-left: 96px; min-height: 58px;}
+.item-info dd h4{ font-size: 13px; color: #4b4b4b; line-height: 14px; font-weight: normal;}
+.item-info dd p{ font-size: 11px; padding-top: 5px; min-height: 16px; line-height: 21px; color: #999;}
+.item-info dd p:last-child{ height: 22px; line-height: 22px; font-size: 18px; color: #fe6771;  padding-top: 0}
+.item-info dd p .icon{ color: #fe6771; font-size: 10px; margin: 0 3px 0 7px}
+.item-info dd p em{ font-style: normal; font-size: 13px; margin-right: 10px}
+
+.other-info li{ height: 45px; line-height: 45px; border-top: 1px solid #ececec; position: relative; font-size: 15px; color: #4b4b4b;}
+.other-info li label{ float: left; width: 84px;}
+.other-info li span{ margin-left: 84px; display: block }
+.other-info li span.price{ color: #fe6771;}
+.other-info li a span{ font-size: 13px;}
+.other-info li a:after{ content: ""; width: 10px; height: 10px; border: 1px solid #cacaca; border-left: none; border-bottom: 0; position: absolute; right: 0; top: 50%; margin-top: -6px; transform: rotate(45deg);}
+.other-info li span.total{ font-size: 13px; text-align: right}
+.other-info li span b{ float: right; font-weight: normal; font-size: 13px; color: #4b4b4b;}
+.other-info li span b .icon{ font-size: 10px; color: #fe6771; margin-right: 3px;}
+
+.pay-info{ background: #fff;}
+.pay-info a{ display: block; border-bottom: 1px solid #ececec; padding: 13px 20px;  line-height: 26px; font-size: 12px; color: #666;}
+.pay-info a .icon-wechat{ font-size: 26px; color: #09bb07; vertical-align: -4px; margin-right: 5px;}
+.pay-info a .icon-right{ color: #ffbe00; float: right; font-size: 18px}
+
+.noCard{ display: block; background: #dadada; width: 100%; height: 34px; line-height: 34px; text-align: center; font-size: 12px; color: #fff; border-radius: 4px; margin: 15px 0;}
+.couponList{ padding: 15px 20px 20px; }
+.couponList dl{ background: #fff; overflow: hidden; border-radius: 4px; overflow: hidden; margin-bottom: 15px; position: relative;}
+.couponList dt{ float: left; width: 80px; padding-left: 10px; height: 75px; line-height: 75px; text-align: center; position: relative; color: #fe6671; border-right: 1px dashed #ccc; font-size: 27px; font-family: "sans-serif"; font-weight: 600;}
+.couponList dt em{font-size: 12px; font-weight: normal; font-style: normal;}
+.couponList dd{ margin-left: 96px; padding-right: 32px; position: relative; height: 75px;}
+.couponList dd h4{ padding-top: 12px; height: 32px; line-height: 20px; color: #fe6771; font-size: 12px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.couponList dd p{ font-size: 11px; color: #999; line-height: 16px; height: 16px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.couponList dd span{ font-weight: normal; position: absolute; right: 16px; top: 14px; width: 25px; height: 15px; line-height: 15px; text-align: center; font-size: 11px; color: #fff; border-radius: 3px; background: #fe6771;}
+.couponList dd .show-detail{ display: block; position: absolute; right: 14px; top: 44px; width: 20px; height: 20px; border: 1px solid #999; border-radius: 10px; transform: rotate(45deg);}
+.couponList dd .show-detail:after{ content: ""; display: inline-block; position: absolute; left: 3px; top: 3px; width: 8px; height: 8px; border: 1px solid #999; border-left: none; border-top: 0;}
+
+.remind{ padding: 10px 20px; font-size: 12px; color: #acacac; line-height: 18px;}
+.agreement{ padding: 14px 20px 0; font-size: 12px; color: #626262;}
+footer a{ display: block; height: 100%; line-height: 50px; text-align: center; color: #fff; font-size: 15px; font-weight: 600; background: #fe6771;}
